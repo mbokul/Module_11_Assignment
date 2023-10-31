@@ -1,0 +1,51 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   padding-top: 10px;
+   max-width: 80%;
+   margin: 0 auto;
+   line-height: 1.5;
+   font-size: 18px;
+}
+
+.m-top-50 {
+   margin-bottom: 50px;
+}
+
+.flex {
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+}
+
+.header {
+   background: red;
+}
+
+.hero {
+   background: lime;
+}
+
+.about {
+   background: pink;
+}
+
+.service {
+   background: rgb(44, 12, 44);
+   color: whitesmoke;
+}
+
+.project {
+   background: lightblue;
+   justify-content: space-between;
+}
+
+.footer {
+   background: aqua;
+}
